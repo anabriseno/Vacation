@@ -1,13 +1,19 @@
 $(document).ready(function() {
-
-  $("form#doing").submit(function(event) {
+  $("form#doing").submit(function() {
     event.preventDefault();
-    var question = $("select#question").val();
+    var sitting = $("select#sitting").val();
+    var standing = $("select#standing").val();
+    var laying = $("select#laying").val();
+    var running = $("select#running").val();
+    var squinting = $("select#question").val();
 
     if (question === "yes") {
-    }  var answer = "Get up"
-    if (question === "no") {
-      var answer = "Have a Seat"
+      result = add(yes, yes)
+      var answer = "Yr doing great"
+    }
+    else if (question === "no") {
+      result = add
+      var answer = "Yr going okay"
     }
 
     $("#answer").empty().append(answer);
