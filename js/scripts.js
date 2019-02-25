@@ -1,21 +1,28 @@
-var add = function(sit, stand, lay, run, squint) {
-  return(Number(sit) + Number(stand) + Number(lay) + Number(run) + Number(squint));
+var add = function(hike, swim, snow, desert, pool) {
+  return(Number(hike) + Number(swim) + Number(snow) + Number(desert) + Number(pool));
   };
 
 $(document).ready(function() {
-  $("form#what").submit(function() {
+  $("form#where").submit(function() {
     event.preventDefault();
-    var sit = $("select#sit").val();
-    var stand = $("select#stand").val();
-    var lay = $("select#lay").val();
-    var run = $("select#run").val();
-    var squint = $("select#squint").val();
+    var hike = $("select#hike").val();
+    var swim = $("select#swim").val();
+    var snow = $("select#snow").val();
+    var desert = $("select#desert").val();
+    var pool = $("select#pool").val();
 
-    var total = add(Number(sit), Number(stand), Number(lay), Number(run), Number(squint))
+    var total = add(Number(hike), Number(swim), Number(snow), Number(desert), Number(pool))
 
-    if (total === 5 ) {
-      var answer = "I hope this works"
+    if (total >= 7 ) {
+      var answer = "Go to palm spring!"
+    }
+    if (total  < 7 ) {
+      var answer = "Go to Miami!"
+    }
+    if (total === 10 ) {
+      var answer = "Stay home"
     };
+
 
     $("#answer").empty().append(answer);
     $("#answer").show();

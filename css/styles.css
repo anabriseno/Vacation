@@ -1,3 +1,11 @@
+body {background-color: #f0b8d3;}
+
+h1 {
+  width: 50%;
+  font-style: italic;
+  text-align: center;
+}
+
 .btn {
   display: block;
 }
