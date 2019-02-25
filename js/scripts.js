@@ -1,5 +1,9 @@
+var add = function(sit, stand, lay, run, squint) {
+  return(Number(sit) + Number(stand) + Number(lay) + Number(run) + Number(squint));
+  };
+
 $(document).ready(function() {
-  $("form#doing").submit(function() {
+  $("form#what").submit(function() {
     event.preventDefault();
     var sit = $("select#sit").val();
     var stand = $("select#stand").val();
@@ -7,13 +11,12 @@ $(document).ready(function() {
     var run = $("select#run").val();
     var squint = $("select#squint").val();
 
-    if (sit === "1") {
-      var answer = "Yr doing great"
+    var total = add(Number(sit), Number(stand), Number(lay), Number(run), Number(squint))
+
+    if (total === 5 ) {
+      var answer = "I hope this works"
     };
-    if (stand === "2") {
-      var answer = "Hey Hey"
-    };
-    
+
     $("#answer").empty().append(answer);
     $("#answer").show();
   });
