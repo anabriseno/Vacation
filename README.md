@@ -1,21 +1,27 @@
-Code Review 2
-Code review of JavaScript and branching
-Feb 2019
+# Code Review 2
 
-By Ana Margarita Briseno
-Description
-A 5 question webpage built with JS, HTML, and CSS.
+#### Vacation Quiz, Feb 2019
 
-Setup/Installation Requirements
-Use web browser to open html file
+#### By Ana Briseno
 
-Known Bugs
-None so far!
+## Description
 
-Support and contact details
-Please contact if you run into any issues or have questions, ideas or concerns.
+A quiz page built with HTML, CSS and Java script.
 
-Technologies Used
-This used HTML, JS, CSS.
+## Setup/Installation Requirements
 
-Copyright (c) 2019 Ana Margarita Briseno
+* Open page with web browser
+* Answer questions to reveal you vacation destination
+
+## Known Bugs
+No known bugs!
+
+## Support and contact details
+
+Please contact anambriseno@gmail.com with any questions or comments.
+
+## Technologies Used
+
+HTML, CSS and JavaScript.
+
+Copyright (c) 2019 **Ana Briseno**
