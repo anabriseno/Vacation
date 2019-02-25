@@ -7,48 +7,59 @@
     <script src="js/scripts.js"></script>
     <title>where should you go?</title>
   </head>
-    <body>
-      <div class="container">
-        <h1>Where should you vacation?</h1>
-          <img src="img/sun.jpg">
-        <form id="where">
+  <body>
+    <div class="container">
+      <h1>Where should you vacation?</h1>
+      <img src="img/water.gif" alt="water" height="500" width="1000" class="center">
+
+    <div class="column">
+      <form id="where">
         <lable for="hike">Do you like to hike?</lable>
-        <select id="hike">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
+          <select id="hike">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+    </div>
 
+    <div class="column">
         <lable for="swim">Do you like to swim?</lable>
-        <select id="swim">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
+          <select id="swim">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+    </div>
 
+    <div class="column">
         <lable for="snow">Do you like the snow?</lable>
-        <select id="snow">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
+          <select id="snow">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+    </div>
 
+    <div class="column">
         <lable for="desert">Do you like the desert?</lable>
-        <select id="desert">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
+          <select id="desert">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+    </div>
 
+    <div class="column">
         <lable for="pool">Do you like to sit by a pool?</lable>
-        <select id="pool">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
+          <select id="pool">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
+    </div>
 
-        <button type="submit" class="btn">See the results!</button>
+    <button type="submit" class="btn-primary"> See the results! </button>
 
-        </form>
+    </form>
 
-      <div id="answer">
+    <div id="answer">
        <p> <span id="answer"></span> </p>
-      </div>
+    </div>
 
    </div>
   </body>
