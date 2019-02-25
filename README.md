@@ -11,7 +11,7 @@ A quiz page built with HTML, CSS and Java script.
 ## Setup/Installation Requirements
 
 * Open page with web browser
-* Answer questions to reveal you vacation destination
+* Answer questions to reveal your vacation destination
 
 ## Known Bugs
 No known bugs!
